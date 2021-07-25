@@ -8,7 +8,7 @@
   var device;
 
   log('Requesting Capability Token...');
-  $.getJSON('https://orchid-koala-9047.twil.io/capability-token')
+  $.getJSON('https://orchid-koala-9047.twil.io/client-voice')
     .then(function (data) {
       log('Got a token.');
       console.log('Token: ' + data.token);
